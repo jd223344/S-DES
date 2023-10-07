@@ -8,7 +8,7 @@
 
 ![](https://ibb.co/SVkVmQK){width="3.3006944444444444in" height="2.71875in"}
 
-![](./image2.png){width="3.3in" height="2.75in"}
+![]([./image2.png](https://ibb.co/LP5sDy8)){width="3.3in" height="2.75in"}
 
 输入部分：加密选项卡输入10-bit的密钥、8-bit的明文（ASCII编码明文详见第3关）；
 
