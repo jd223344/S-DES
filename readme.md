@@ -6,7 +6,7 @@
 
 本小组GUI主界面如下：
 
-![](./image1.png){width="3.3006944444444444in" height="2.71875in"}
+![](https://ibb.co/SVkVmQK){width="3.3006944444444444in" height="2.71875in"}
 
 ![](./image2.png){width="3.3in" height="2.75in"}
 
