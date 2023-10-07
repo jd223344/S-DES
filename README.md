@@ -1,49 +1,58 @@
-# S-DES
 # TiMi小组关于S-DES加解密项目开发手册
 
-1. **概述**
+1.  概述
 
 本项目可通过GUI界面实现对二进制、ASCII编码的数据进行加/解密，同时还可通过暴力破解获得多对明密文对相应的密钥以及一对明密文对可能存在的多个密钥。
 
-1. **GUI**** 界面**
+2.  GUI界面
 
-**2.1**  **相关代码**
+2.1 相关代码
 
 GUI界面相关代码可参考代码项目中GUI.py相关文件。
 
-**2.2**  **具体界面及操作解释**
+2.2 具体界面及操作解释
 
 用户可以通过运行GUI.py文件可得：
 
-![](RackMultipart20231007-1-6w2w71_html_6b7a71a33eb7d852.png)
+![](./image1.png){width="4.194659886264217in"
+height="3.521013779527559in"}
 
 用户输入密钥以及明/密文，可进行加/解密：
 
-![](RackMultipart20231007-1-6w2w71_html_1542e6d42a76274e.png)
+![](./image2.png){width="4.139102143482065in"
+height="3.4376771653543305in"}
 
-![](RackMultipart20231007-1-6w2w71_html_866c0386e009e942.png)
+![](./image3.png){width="4.159935476815398in"
+height="3.444621609798775in"}
 
 若输入密钥或者明文的长度、格式不对（比如密钥长度不为10，二进制明文长度不为8，或者格式不为二进制），会有相关提醒：
 
-![](RackMultipart20231007-1-6w2w71_html_3a528ec331f8d3c5.png)
+![](./image4.png){width="4.152991032370954in"
+height="3.4515660542432194in"}
 
-![](RackMultipart20231007-1-6w2w71_html_21956e8971f983e7.png)
+![](./image5.png){width="4.173825459317586in"
+height="3.868254593175853in"}
 
-![](RackMultipart20231007-1-6w2w71_html_954e327a215fddef.png)
+![](./image6.png){width="4.201604330708661in"
+height="3.5140693350831147in"}
 
-![](RackMultipart20231007-1-6w2w71_html_ccfa73131e399fe5.png)
+![](./image7.png){width="4.194659886264217in"
+height="3.8265857392825895in"}
 
 暴力破解：
 
-![](RackMultipart20231007-1-6w2w71_html_dd637cebba81b08e.png)
+![](./image8.png){width="5.722516404199475in"
+height="1.6806419510061241in"}
 
-![](RackMultipart20231007-1-6w2w71_html_7e39adf42d7d0262.png)
+![](./image9.png){width="5.768055555555556in" height="2.68125in"}
 
-![](RackMultipart20231007-1-6w2w71_html_5444129cca4fc6d7.png)
+![](./image10.png){width="5.768055555555556in"
+height="1.8083333333333333in"}
 
-1. **项目代码部分相关介绍**
+3.  项目代码部分相关介绍
 
-![](RackMultipart20231007-1-6w2w71_html_91769638933fe013.png)
+![](./image11.png){width="2.1876126421697286in"
+height="3.0348786089238846in"}
 
 其中GUI.py主要关于界面的设计；Function.py主要设计EP-Box，S-Box，SP-Box，IP，IP的逆，轮函数的设计；Key.py主要设计了提取子密钥；Encryption.py主要完成加密过程；Decryption.py主要完成解密过程；ASCII.py完成了对于ASCII编码的加/解密；BF.py完成了
 
@@ -51,17 +60,19 @@ GUI界面相关代码可参考代码项目中GUI.py相关文件。
 
 可运行文件为：GUI.py；BF.py；BF2.py
 
-1. **项目背景介绍**
+4.  项目背景介绍
 
 S-DES算法加/解密原理流程图如下：
 
-![](RackMultipart20231007-1-6w2w71_html_6bec324f3747f0c6.jpg)
+![](./image12.jpeg){width="5.768055555555556in"
+height="4.227083333333334in"}
 
 轮函数原理流程如下：
 
-![](RackMultipart20231007-1-6w2w71_html_cdc339ecbc6dc975.jpg)
+![](./image13.jpeg){width="3.03125in"
+height="3.9367093175853016in"}
 
-1. **使用步骤**
+5.  使用步骤
 
 ●运行GUI.py文件
 
@@ -71,6 +82,6 @@ S-DES算法加/解密原理流程图如下：
 
 ●若进行暴力破解，可运行BF.py文件或者时BF2.py文件
 
-1. **其他帮助**
+6.  其他帮助
 
-TiMi小组是一个优秀、热情负责的团队。若您在使用过程中出现任何困惑不解，[可发送邮件至](mailto:%E5%8F%AF%E5%8F%91%E9%80%81%E9%82%AE%E4%BB%B6%E8%87%B3891073279@qq.com)[891073279@qq.com](mailto:%E5%8F%AF%E5%8F%91%E9%80%81%E9%82%AE%E4%BB%B6%E8%87%B3891073279@qq.com)或者3416924346@qq.com。
+TiMi小组是一个优秀、热情负责的团队。若您在使用过程中出现任何困惑不解，<可发送邮件至891073279@qq.com>或者3416924346@qq.com。
