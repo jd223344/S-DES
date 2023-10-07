@@ -5,6 +5,8 @@
 ## **第1关：基本测试**
 
 本小组GUI主界面如下：
+![image1](https://github.com/jd223344/S-DES/assets/145902946/2b4015da-5f08-4d59-82f0-6b27c6bdeb9e)
+)
 
 ![](./image1.png){width="3.3006944444444444in" height="2.71875in"}
 
